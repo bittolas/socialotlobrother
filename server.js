@@ -22,3 +22,13 @@ var HOST = location.origin.replace(/^http/, 'ws')
           } break;
         }
       }
+      
+      
+  
+      setTimeout(
+        function() {
+                
+             ws.send(onoof) 
+            console.log("conversando")
+            conetador();
+         }, 9000);
